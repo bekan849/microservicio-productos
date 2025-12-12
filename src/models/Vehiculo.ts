@@ -1,12 +1,12 @@
 export interface Vehiculo {
   idvehiculo: string;
   codigovehic: string;
-  urlImagen?: string;
+  urlimagen?: string;
   descripcion?: string;
   estado: boolean;
-  idCategoria: string;
-  idSubcategoria: string;
-  idMarca: string;
+  idcategoria: string;
+  idsubcategoria: string;
+  idmarca: string;
   nombre: string;
   stock: number;
   creado_en?: string;

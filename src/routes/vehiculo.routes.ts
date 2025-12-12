@@ -16,4 +16,6 @@ router.put("/:id", VehiculoController.actualizar);
 // 📍 DELETE /api/vehiculos/:id
 router.delete("/:id", VehiculoController.eliminar);
 
+router.patch("/:id/estado", VehiculoController.cambiarEstado);
+
 export default router;
